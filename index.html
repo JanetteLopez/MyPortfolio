@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="description">
+    <title>My App</title>
+    <link rel="stylesheet"  href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <base href="/" />
+</head>
+<body>
+
+   <nav class="navbar">
+                    <li class="active"><a href="/" ><img src="http://simpleicon.com/wp-content/uploads/home-4.png"></a></li>
+                    <li><a href="/aboutMe" ><img src="http://www.freeiconspng.com/uploads/female-silhouette-head-face-icon--33.png"></a></li>
+                    <li><a href="https://github.com/JanetteLopez"><img src="http://www.freeiconspng.com/uploads/github-logo-icon-30.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/janette-lopez/"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png"></a></li>
+    </nav>
+   
+        <ui-view></ui-view>
+    
+    <script src="/node_modules/angular/angular.min.js"></script>
+    <script src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    
+
+    <script src="/ngApp/Controllers/homeController.js"></script>
+
+    <script src="/ngApp/app.js"></script>
+   
+</body>
+</html>

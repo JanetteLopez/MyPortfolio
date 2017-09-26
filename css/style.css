@@ -1,0 +1,150 @@
+.navbar{
+    list-style-type: none;
+    text-align: left;
+    position: fixed;
+    width: 70px;
+    height: 300px;
+    border: 1px solid white;
+    border: dashed black;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1; /* Safari 6.1+ */
+    flex: 1;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLgVQ8OGs6HIK8LWvuW1jDZ1-m3TfaAUUBq3U_OK8FfNiHYk0Yug'); */
+}
+/* a{
+    background-color: white;
+} */
+nav img {
+    width: 70px;
+    height: 70px;
+    /* background-color: white; */
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-image: url('https://orig00.deviantart.net/dd87/f/2011/233/3/4/rainbow_neon_drip_by_mixout99-d47c95r.png');
+}
+#name{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: red;
+    position: fixed;
+    margin: 20px;
+    right: 600px;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation: example 20s infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation: example 20s infinite;
+}
+@-webkit-keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+#homeIMG{
+    border-radius: 50%;
+}
+#cimg{
+    position: fixed;
+    padding-top: 140px;
+    left: 140px;
+    height: auto;
+    width: 500px;
+}
+#wD{
+    font-family: 'Lobster', cursive;    
+}
+#gif{
+    position: fixed;
+    left: 50px;
+    top: 30px;
+    padding:20px; 
+   
+}
+#myP{
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    position: fixed;
+    right: 150px;
+    top: 300px;
+    word-wrap: break-word;
+}
+#ywd{
+    font-family: 'Lobster', cursive;
+    font-size:40px; 
+}
+#stars{
+    height: auto;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: rotate(45deg);
+
+}
+#stars2{
+    height: auto;
+    width: 250px;
+    position: fixed;
+    top: 50px;
+    right: 150px;
+    transform: rotate(20deg);    
+}
+#myName{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    color: red;
+    position: fixed;
+    right: 500px;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation: example 20s infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation: example 20s infinite; 
+}
+#info{
+    font-family: 'Lobster', cursive;
+    position: fixed;
+    top: 70px;
+    right: 100px;
+
+}
+#meImg{
+    border-radius: 50%;
+    position: fixed;
+    top: 220px;
+    left: 350px;
+}
+#who{
+    font-family: 'Lobster', cursive;    
+    position: fixed;
+    top: 220px;
+    right: 350px;
+}
+#pgra{
+    font-family: 'Crimson Text', serif;
+    position: fixed;
+    top: 280px;
+    right: 280px;
+    display: inline-block;
+    width: 300px; 
+    font-size:17px; 
+}
+#homep{
+    font-family: 'Crimson Text', serif;
+}

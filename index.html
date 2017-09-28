@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="description">
     <title>My App</title>
     <link rel="stylesheet"  href="css/style.css" />
+    <link href="/aboutMe.html"/>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-    <base href="/" />
+    
 </head>
 <body>
 
@@ -19,15 +20,38 @@
                     <li><a href="https://www.linkedin.com/in/janette-lopez/"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png"></a></li>
     </nav>
    
-        <ui-view></ui-view>
-    
-    <script src="./libs/angular/angular.min.js"></script>
-    <script src="./libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+        
+<center>
+    <h1 id="name">JSL</h1>
+    <img id="homeIMG" src="data:image/jpeg;base64,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">
+     <div id="wD">
+    ~ Web Developer ~
+    </div>
+</center>
+<div>
+ <img id="stars" src="https://img00.deviantart.net/e979/i/2012/229/8/a/stars_png_by_fakiha133-d5beh7t.png">
+</div>
+<div>
+    <img id="stars2" src="https://img00.deviantart.net/e979/i/2012/229/8/a/stars_png_by_fakiha133-d5beh7t.png">
+</div>
+<div>
+ <img id="gif" src="http://68.media.tumblr.com/adaf6b20b500436e48e71bd8c47a32a6/tumblr_inline_mz27tbdCOC1qfqdmq.png">
+</div>
+<div>
+<img  id="cimg" src="http://i0.kym-cdn.com/photos/images/original/001/214/004/e33.gif">
+</div>
+<div id="myP">
+<h2 id="ywd"> Why Web Development? </h2>
+<p id="homep">Growing up, I was always so fond of the web. I was always on the computer, playing PC games or
+on paint. I always wanted to know how ? In high school I enrolled in a Robotics and Engneering class. It never 
+taught me about web development, but showed me the programming world. I began studying Computer 
+Science at the University of Arizona. I then took a brake from there, and did the rest of my learning at Pima Community 
+College. Taking another break I moved to Phoenix, Arizona, and found Coder Camps . At Coder Camps,
+I was taught how to build a site using .Net . Learning much more , I fell in love with the front end of the applicatoion 
+styling and displaying. Learn more about me <a href="/aboutMe">here</a> or click the girl (: </p>
+</div>
     
 
-    <script src="./ngApp/Controllers/homeController.js"></script>
-
-    <script src="./ngApp/app.js"></script>
-   
+    <script src="/aboutMe.html"></script>
 </body>
 </html>
